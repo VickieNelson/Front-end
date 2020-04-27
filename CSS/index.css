@@ -172,9 +172,13 @@ h1,
 h2,
 h3 {
   font-size: 2.5rem;
+  color: #ffffff;
 }
 body {
   background-color: #232222;
+}
+p {
+  color: #ffffff;
 }
 #home {
   height: 90vh;
@@ -267,6 +271,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 .middle-images h2 {
   margin-bottom: 5%;
@@ -289,4 +294,28 @@ button {
   color: #ffffff;
   font-size: 1.8rem;
   text-align: center;
+}
+.top-section {
+  background-image: url(/images/emily-sea-coiWR0gT8Cw-unsplash.jpg);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 900px;
+  margin-left: 10%;
+}
+.cta {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80%;
+}
+.cta h2 {
+  font-size: 6rem;
+  margin-top: 50%;
+}
+.cta p {
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }

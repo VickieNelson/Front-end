@@ -1,0 +1,68 @@
+#home {
+  height: 90vh;
+  //   add bg image here
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  nav {
+    width: 100%;
+    background-color: @accent-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      justify-content: space-evenly;
+    }
+  }
+  .logo {
+    background-color: @accent-color;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    color: @white;
+  }
+}
+
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a:hover {
+  color: @brand-black;
+}
+
+nav {
+  a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: @white;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+  }
+}
+
+#footer-links {
+  background-color: @accent-color;
+  margin-top: 3%;
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    color: @white;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+
+    a:hover {
+      color: @brand-black;
+    }
+  }
+}

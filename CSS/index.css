@@ -210,10 +210,10 @@ nav a:hover {
   color: #232222;
 }
 nav a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #ffffff;
-  font-size: 2rem;
+  letter-spacing: 1px;
   font-family: "Lato", sans-serif;
 }
 #footer-links {
